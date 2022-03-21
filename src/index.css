@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +19,148 @@
 
 .left-icons {
   flex-grow:1;
+}
+
+.part1 {
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+}
+
+.part1 .title {
+  font-family: 'Libre Baskerville';
+  font-weight: 500;
+  font-style: normal;
+  font-size:33px;
+  line-height:30.46px;
+  padding-top:43px;
+  text-align: center;
+}
+
+.part1 .sub-title {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-style: normal;
+  font-size:18px;
+  line-height:22.5px;
+  padding:0 42px;
+  padding-top:37px;
+  text-align: center;
+}
+
+
+.part1 .description { 
+  padding:0 34px;
+  padding-top:37px;
+  line-height: 25.06px; 
+  font-family: 'Poppins';
+  font-size:14px;
+  font-style: normal;
+}
+
+.hr1 {
+  margin:0 32px;
+  margin-top:26px;
+  background-color:#000;
+  height:1px;
+}
+
+
+.part1 .title-2 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  font-size:22px;
+  line-height:33px;
+  padding-top:32px;
+  text-align: center;
+}
+
+.part1 .sub-title-2 {
+  font-family: 'Libre Baskerville';
+  font-weight: 500;
+  font-style: normal;
+  font-size:33px;
+  line-height:44.48px;
+  padding:0 36px;
+  padding-top:37px;
+  text-align: center;
+}
+
+
+.part1 .description-2 { 
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  font-size:16px;
+  line-height:28.64px;
+  padding:0 32px;
+  padding-top:37px;
+  text-align: center;
+}
+
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+}
+
+.card-desc {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-style: normal;
+  font-size:16px;
+  line-height:28.64px;
+  padding:0 32px;
+  padding-top:38px;
+  text-align: center;
+}
+
+.end-text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: normal;
+  font-size:16px;
+  line-height:28.64px;
+  padding:45px 28px;
+  padding-top:66px;
+  text-align: center;
+}
+
+
+.part2 {
+  background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
+}
+
+.part2 .title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  font-size:22px;
+  line-height:33px;
+  padding-top:39px;
+  text-align: center;
+}
+
+.part2 .sub-title {
+  font-family: 'Libre Baskerville';
+  font-weight: 500;
+  font-style: normal;
+  font-size:32px;
+  line-height:43.14px;
+  padding-top:37px;
+  text-align: center;
+}
+
+.part2 .description {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-style: normal;
+  font-size:14px;
+  line-height:25.2px;
+  padding:42px 34px;
+  padding-top:29px;
+  text-align: start;
 }
