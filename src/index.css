@@ -326,6 +326,50 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+.part9 {
+  background: #050506;
+  padding:20px;
+  color:#fff;
+}
+
+.part9 .icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons i {
+  margin:8px;
+  font-size: 24px;
+}
+
+.part9 .option {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28.59px;
+}
+
+.contact input {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid #E7F6FC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.contact button {
+  background: #D6F4FB;
+  border: 1.2782px solid #E9F4FF;
+  box-sizing: border-box;
+  border-radius: 17.2556px;
+  padding:6px 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #1B1B50;
+}
+
 
 
 
