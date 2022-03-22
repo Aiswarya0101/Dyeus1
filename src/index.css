@@ -136,7 +136,7 @@
   background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
 }
 
-.part2 .title,.part3 .title,.part4 .title {
+.part2 .title,.part3 .title,.part4 .title,.part5 .title {
   font-family: 'Poppins';
   font-weight: 700;
   font-style: normal;
@@ -158,7 +158,7 @@
   text-align: center;
 }
 
-.part2 .description,.part3 .description,.part4 .description {
+.part2 .description,.part3 .description,.part4 .description,.part5 .description{
   font-family: 'Poppins';
   font-weight: 300;
   font-style: normal;
@@ -201,7 +201,7 @@
   width: 100%;
 }
 
-.img-text .text button,.part4 button {
+.img-text .text button,.part4 button,.part5 button {
   margin-top:32px;
   width:315px;
   height:66px;
@@ -233,18 +233,18 @@
   background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
 }
 
-.part4 .title {
+.part4 .title,.part5 .title {
   text-align: start;
   font-size: 32px;
 }
 
-.part4 .description {
+.part4 .description,.part5 .description {
   line-height:28.81px;
   color: rgba(0, 0, 0, 0.8);
 }
 
 .part4 button {
-  margin:0 32px;
+  margin:0 20px;
   background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
   box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
 }
@@ -261,6 +261,18 @@
   width: 164px;
   height: 164px;
   margin:8px;
+}
+
+.part5 {
+  background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
+}
+
+.part5 button {
+  margin:0 20px;
+  margin-bottom: 32px;
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;  
 }
 
 
