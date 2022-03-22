@@ -312,6 +312,20 @@
   margin:0 20px;
 }
 
+.part8 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 134.8%;
+  padding:48px 64px;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%); 
+  color: rgba(0, 0, 0, 0.8);
+}
+
 
 
 
